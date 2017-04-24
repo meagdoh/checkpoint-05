@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+med_priority = Todo.create(content:"Submit Irish cisitzenship paperwork", is_completed:"No")
+low_priority = Todo.create(content:"Move to Ireland", is_completed:"No")
+high_priority = Todo.create(content:"Become a Software Developer", is_completed:"No")
